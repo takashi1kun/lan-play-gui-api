@@ -21,7 +21,7 @@ app.get( "/api/ip", ( req, res, next ) => {
 } );
 app.get( "/api/json/:jsonName", async ( req, res, next ) => {
     const jsonName: string = sanitize(req.params.jsonName);
-    const pathJson = path.join(process.cwd(),`/json/${jsonName}.json`);
+    const pathJson = path.join(__dirname,`/json/${jsonName}.json`);
     if (fs.existsSync(pathJson)) {
         const jsonData = require(pathJson);
         res.json( jsonData );

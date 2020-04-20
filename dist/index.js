@@ -58,7 +58,7 @@ app.get("/api/json/:jsonName", function (req, res, next) { return __awaiter(void
     var jsonName, pathJson, jsonData;
     return __generator(this, function (_a) {
         jsonName = sanitize_filename_1.default(req.params.jsonName);
-        pathJson = path_1.default.join(process.cwd(), "/json/" + jsonName + ".json");
+        pathJson = path_1.default.join(__dirname, "/json/" + jsonName + ".json");
         if (fs_1.default.existsSync(pathJson)) {
             jsonData = require(pathJson);
             res.json(jsonData);
