@@ -1,0 +1,247 @@
+[
+    {
+        "name": "switch.lan-play.com",
+        "url": "switch.lan-play.com",
+        "port": 11451,
+        "flag": "fr",
+        "type": "node"
+    },
+    {
+        "name": "au-west.switch.lan-play.com",
+        "url": "au-west.switch.lan-play.com",
+        "port": 11451,
+        "flag": "au",
+        "type": "node"
+    },
+    {
+        "name": "au-east.switch.lan-play.com",
+        "url": "au-east.switch.lan-play.com",
+        "port": 11451,
+        "flag": "au",
+        "type": "node"
+    },
+    {
+        "name": "nxlan.duckdns.org",
+        "url": "nxlan.duckdns.org",
+        "port": 11451,
+        "flag": "us",
+        "type": "node"
+    },
+    {
+        "name": "pcoh.ddns.net",
+        "url": "pcoh.ddns.net",
+        "port": 11451,
+        "flag": "us",
+        "type": "node"
+    },
+    {
+        "name": "us.nx-s.cf",
+        "url": "us.nx-s.cf",
+        "port": 11451,
+        "flag": "us",
+        "type": "node"
+    },
+    {
+        "name": "frog-skins.com",
+        "url": "frog-skins.com",
+        "port": 11451,
+        "flag": "us",
+        "type": "node"
+    },
+    {
+        "name": "34.69.148.75",
+        "url": "34.69.148.75",
+        "port": 11451,
+        "flag": "us",
+        "type": "node"
+    },
+    {
+        "name": "qcswitch.ddns.net",
+        "url": "qcswitch.ddns.net",
+        "port": 11451,
+        "flag": "ca",
+        "type": "node"
+    },
+    {
+        "name": "fr.fadx.co.uk",
+        "url": "fr.fadx.co.uk",
+        "port": 11451,
+        "flag": "fr",
+        "type": "node"
+    },
+    {
+        "name": "nxlanfr.hopto.org",
+        "url": "nxlanfr.hopto.org",
+        "port": 11451,
+        "flag": "fr",
+        "type": "node"
+    },
+    {
+        "name": "switch.emiyl.com",
+        "url": "switch.emiyl.com",
+        "port": 11451,
+        "flag": "gb",
+        "type": "node"
+    },
+    {
+        "name": "switch.glaciergaming.co.uk",
+        "url": "switch.glaciergaming.co.uk",
+        "port": 11451,
+        "flag": "gb",
+        "type": "node"
+    },
+    {
+        "name": "switch.homelab.tech",
+        "url": "switch.homelab.tech",
+        "port": 11451,
+        "flag": "gb",
+        "type": "node"
+    },
+    {
+        "name": "34.89.92.59",
+        "url": "34.89.92.59",
+        "port": 11451,
+        "flag": "gb",
+        "type": "node"
+    },
+    {
+        "name": "memehouse.de",
+        "url": "memehouse.de",
+        "port": 11451,
+        "flag": "de",
+        "type": "node"
+    },
+    {
+        "name": "relay.it-cybergate.club",
+        "url": "relay.it-cybergate.club",
+        "port": 11451,
+        "flag": "de",
+        "type": "node"
+    },
+    {
+        "name": "nerdylife.de",
+        "url": "nerdylife.de",
+        "port": 11451,
+        "flag": "de",
+        "type": "node"
+    },
+    {
+        "name": "euplay.secretalgorithm.com",
+        "url": "euplay.secretalgorithm.com",
+        "port": 11451,
+        "flag": "lt",
+        "type": "node"
+    },
+    {
+        "name": "lanplay.reboot.ms",
+        "url": "lanplay.reboot.ms",
+        "port": 11451,
+        "flag": "nl",
+        "type": "node"
+    },
+    {
+        "name": "jayseateam.nl",
+        "url": "jayseateam.nl",
+        "port": 11451,
+        "flag": "nl",
+        "type": "node"
+    },
+    {
+        "name": "lanplay2.reboot.ms",
+        "url": "lanplay2.reboot.ms",
+        "port": 11451,
+        "flag": "ro",
+        "type": "node"
+    },
+    {
+        "name": "switch.goffy.tk",
+        "url": "switch.goffy.tk",
+        "port": 11451,
+        "flag": "no",
+        "type": "node"
+    },
+    {
+        "name": "nswbr.ddns.net",
+        "url": "nswbr.ddns.net",
+        "port": 11451,
+        "flag": "br",
+        "type": "node"
+    },
+    {
+        "name": "177.54.110.45",
+        "url": "177.54.110.45",
+        "port": 11451,
+        "flag": "br",
+        "type": "node"
+    },
+    {
+        "name": "35.235.1.55",
+        "url": "35.235.1.55",
+        "port": 11451,
+        "flag": "br",
+        "type": "node"
+    },
+    {
+        "name": "slp.rush-hour.wo.tc",
+        "url": "slp.rush-hour.wo.tc",
+        "port": 11451,
+        "flag": "kr",
+        "type": "node"
+    },
+    {
+        "name": "jp.nx-s.cf",
+        "url": "jp.nx-s.cf",
+        "port": 11451,
+        "flag": "jp",
+        "type": "node"
+    },
+    {
+        "name": "switch.adelphia.xyz",
+        "url": "switch.adelphia.xyz",
+        "port": 11451,
+        "flag": "sg",
+        "type": "node"
+    },
+    {
+        "name": "switch-la.nplay.asia",
+        "url": "switch-la.nplay.asia",
+        "port": 11451,
+        "flag": "vn",
+        "type": "node"
+    },
+    {
+        "name": "nut.r3n3.at",
+        "url": "nut.r3n3.at",
+        "port": 11451,
+        "flag": "at",
+        "type": "dotnet"
+    },
+    {
+        "name": "bluehouse.servepics.com",
+        "url": "bluehouse.servepics.com",
+        "port": 11451,
+        "flag": "mx",
+        "type": "node"
+    },
+    {
+        "name": "epicna.ddns.net",
+        "url": "epicna.ddns.net",
+        "port": 11451,
+        "flag": "ca",
+        "type": "dotnet"
+    },
+    {
+        "name": "north-lanplay.ddns.net",
+        "url": "north-lanplay.ddns.net",
+        "port": 11451,
+        "flag": "ca",
+        "type": "dotnet"
+    },
+    {
+        "name": "kirbfeels.throwbackcountdown.com",
+        "url": "kirbfeels.throwbackcountdown.com",
+        "port": 11451,
+        "flag": "us",
+        "type": "dotnet"
+    }
+]
