@@ -45,7 +45,7 @@ var portscanner_1 = __importDefault(require("portscanner"));
 var fs_1 = __importDefault(require("fs"));
 var sanitize_filename_1 = __importDefault(require("sanitize-filename"));
 var app = express_1.default();
-var port = 9889; // default port to listen
+var port = 80; // default port to listen
 // Configure Express to use EJS
 // start the express server
 app.listen(port, function () {
