@@ -3,19 +3,8 @@
     "builds": [{ "src": "dist/index.js", "use": "@now/node-server" }],
     "routes": [
       {
-        "src": "/api/ip",
-        "dest": "dist/index.js",
-        "methods": ["GET"]
-      },
-      {
-        "src": "/api/port/:port",
-        "dest": "dist/index.js",
-        "methods": ["GET"]
-      },
-      {
-        "src": "/api/json/:jsonName",
-        "dest": "dist/index.js",
-        "methods": ["GET"]
+        "src": "/(.*))",
+        "dest": "index.js"
       }
     ]
   }
