@@ -4,7 +4,7 @@ import portscanner from "portscanner";
 import fs from "fs";
 import sanitize from "sanitize-filename";
 const app = express();
-const port = 9889; // default port to listen
+const port = 80; // default port to listen
 
 // Configure Express to use EJS
 
