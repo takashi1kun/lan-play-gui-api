@@ -3,6 +3,7 @@ import path from "path";
 import portscanner from "portscanner";
 import fs from "fs";
 import sanitize from "sanitize-filename";
+import fetch from "node-fetch";
 const app = express();
 const port = 80; // default port to listen
 
@@ -36,4 +37,17 @@ app.get( "/api/port/:port", async ( req, res, next ) => {
     const scan = portscanner.checkPortStatus(port, ip);
     const result = await scan;
     res.json( {scan:result} );
+} );
+
+app.get( "/api/test/:port/:code", async ( req, res, next ) => {
+    const code: string = req.params.code;
+    const port: number = parseInt(req.params.port);
+    const ip = (<string>req.headers['x-forwarded-for'] || <string>req.connection.remoteAddress || '').split(',')[0].trim();
+    const scan = fetch(`http://${ip}:${port}/lanplayguitest/${code}`);
+    try {
+        await scan;
+        res.json( {scan:true} );
+    } catch(err){
+        res.json( {scan:false} );
+    }    
 } );
