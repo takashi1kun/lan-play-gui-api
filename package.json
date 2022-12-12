@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@now/node-server": "^0.8.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-fetch": "^2.6.0",
     "portscanner": "^2.2.0",
     "sanitize-filename": "^1.6.3"
